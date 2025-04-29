@@ -1,0 +1,58 @@
+/*
+Theme Name: Astra Child
+Theme URI: https://wpastra.com/
+Template: astra
+Author: Brainstorm Force
+Author URI: https://wpastra.com/about/?utm_source=theme_preview&utm_medium=author_link&utm_campaign=astra_theme
+Description: Astra is fast, fully customizable &amp; beautiful WordPress theme suitable for blog, personal portfolio, business website and WooCommerce storefront. It is very lightweight (less than 50KB on frontend) and offers unparalleled speed. Built with SEO in mind, Astra comes with Schema.org code integrated and is Native AMP ready so search engines will love your site. It offers special features and templates so it works perfectly with all page builders like Elementor, Beaver Builder, Visual Composer, SiteOrigin, Divi, etc. Some of the other features: # WooCommerce Ready # Responsive # RTL &amp; Translation Ready # Extendible with premium addons # Regularly updated # Designed, Developed, Maintained &amp; Supported by Brainstorm Force. Looking for a perfect base theme? Look no further. Astra is fast, fully customizable and WooCommerce ready theme that you can use for building any kind of website!
+Tags: custom-menu,custom-logo,entertainment,one-column,two-columns,left-sidebar,e-commerce,right-sidebar,custom-colors,editor-style,featured-images,full-width-template,microformats,post-formats,rtl-language-support,theme-options,threaded-comments,translation-ready,blog
+Version: 4.8.10.1737353689
+Updated: 2025-01-20 06:14:49
+
+*/
+
+/* header{
+	display:none;
+} */
+
+#formWrap .formGroupWrap .formGroup{
+	display:flex;
+	gap:15px;
+}
+
+#formWrap input{
+	margin-bottom:7px;
+}
+
+#formWrap textarea{
+	margin-bottom:0;
+	border-radius: 8px 8px 8px 8px;
+}
+
+#formWrap label{
+	font-family: "Inter Tight", Sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    color: #000000;
+}
+
+#formWrap input{
+	padding: 15px 15px 15px 15px;
+    width: 100%;
+    height: 50px;
+    border-radius: 8px 8px 8px 8px;
+    color: #000000;
+}
+
+#formWrap input[type="submit"]{
+	background-color: #272a6c !important;
+    font-family: "Inter Tight", Sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    padding: 0px 10px 0px 0px !important;
+    color: #ffffff !important;
+}
+
+#formWrap p{
+	margin-bottom: 10px;
+}
